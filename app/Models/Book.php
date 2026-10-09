@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Book extends Model
 {
     use HasFactory;
-    
-    // Tambahkan baris ini
-    protected $fillable = ['title', 'author', 'description'];
+
+    protected $fillable = ['title', 'description', 'status'];
 }

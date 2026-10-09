@@ -20,3 +20,4 @@ Route::get('/admin', function () {
 Route::get('/login', function () {
     return "Ini halaman login sementara.";
 })->name('login');
+
